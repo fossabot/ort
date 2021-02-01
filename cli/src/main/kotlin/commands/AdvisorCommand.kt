@@ -85,7 +85,7 @@ class AdvisorCommand : CliktCommand(name = "advise", help = "Run vulnerability d
     ).convert { advisorName ->
         Advisor.ALL.find { it.advisorName.equals(advisorName, ignoreCase = true) }
             ?: throw BadParameterValue("Advisor '$advisorName' is not one of ${Advisor.ALL}")
-    }.default(NexusIq.Factory())
+    }.required()
 
     private val skipExcluded by option(
         "--skip-excluded",
