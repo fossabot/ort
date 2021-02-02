@@ -1,4 +1,5 @@
 ![OSS Review Toolkit Logo](./logos/ort.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsameer1046%2Fort.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsameer1046%2Fort?ref=badge_shield)
 
 &nbsp;
 
@@ -51,6 +52,9 @@ use):
   classifications.
 * [_Reporter_](#reporter) - presents results in various formats such as visual reports, Open Source notices or
   Bill-Of-Materials (BOMs) to easily identify dependencies, licenses, copyrights or policy rule violations.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsameer1046%2Fort.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsameer1046%2Fort?ref=badge_large)
 
 # Installation
 
